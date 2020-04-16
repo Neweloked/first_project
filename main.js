@@ -3,7 +3,7 @@
 const pi = 3.14;
  console.log(second);*/
 
- let number = 5;
+ /*let number = 5;
  let string = "Hello!";
  let sym = Symbol();
  let boolean = true;
@@ -13,7 +13,7 @@ const pi = 3.14;
 
  console.log(4/0); //infinity
  console.log('string' * 9); //NuN
-
+*/
  /*let persone = {
      name: 'John',
      age: 25,
@@ -41,3 +41,39 @@ const pi = 3.14;
  decr--;
  console.log(incr);
  console.log(decr);*/
+
+ /* if (2*3 == 8) {
+     console.log("Верно");
+ } else {
+     console.log("Не верно!");
+ } */
+
+/*  let num = 50;
+ if (num < 49) {
+     console.log("Не верно!");
+ } else if (num > 100){
+     console.log("Много!");
+ } else {
+     console.log("Верно!");
+ } */
+let num = 50;
+/*  (num == 50) ? console.log('Верно!') : console.log('Не верно!'); */
+
+
+ switch (num) {
+     case num < 49:
+         console.log('Неверно!');
+         break;
+    case num > 100:
+        console.log("МногО!");
+        break;
+    case num > 80:
+        console.log('Все еще многО!');
+        break;
+    case 50:
+        console.log('Верно!');
+        break;
+    default:
+        console.log('Что то пошло не так!');
+        break;
+ }
