@@ -34,10 +34,10 @@ const pi = 3.14;
 
  /*console.log('arr' + '- object');*/
 
- let incr = 10;
+ /*let incr = 10;
  let decr = 10;
 
  incr++;
  decr--;
  console.log(incr);
- console.log(decr);
+ console.log(decr);*/
