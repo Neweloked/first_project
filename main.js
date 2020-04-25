@@ -168,3 +168,26 @@ function done() {
 }
 
 learnJs('JavaScript', done);
+
+
+let options = {
+    width: 1024,
+    height: 720,
+    name: 'Daniil'
+};
+console.log(options.name);
+options.bool = true;
+options.colors = {
+    border: 'black',
+    background: 'red'
+};
+delete options.bool;
+
+console.log(options);
+
+
+for(let key in options) {
+    console.log('Свойство ' + key + ' имеет значение ' + options[key]);
+}
+
+console.log(Object.keys(options).length);
