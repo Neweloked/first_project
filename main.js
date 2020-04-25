@@ -113,7 +113,7 @@ const pi = 3.14;
      
  } */
 
- let calc = (a, b) => a + b;
+/*  let calc = (a, b) => a + b;
  
  
  console.log(calc(3,6));
@@ -141,4 +141,30 @@ let twelve = "12.2px";
 //console.log(Math.round(twelve));
 
 console.log(parseInt(twelve));
-console.log(parseFloat(twelve));
+console.log(parseFloat(twelve)); */
+
+
+function first() {
+    setTimeout( function() {
+        console.log(1);
+    }, 500 );
+}
+
+function second() {
+    console.log(2);
+}
+
+first();
+second();
+
+
+function learnJs(lang, callback) {
+    console.log('Я учу ' + lang);
+    callback();
+}
+
+function done() {
+    console.log('Я прошел 3-ий урок!');
+}
+
+learnJs('JavaScript', done);
