@@ -113,7 +113,7 @@ const pi = 3.14;
      
  } */
 
- let calc = (a, b) => a + b
+ let calc = (a, b) => a + b;
  
  
  console.log(calc(3,6));
