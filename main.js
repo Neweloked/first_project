@@ -79,7 +79,7 @@ const pi = 3.14;
  }
  */
 
- let num = 50;
+/*  let num = 50; */
  /* while (num < 55) {
      console.log(num);
      num++;
@@ -91,9 +91,54 @@ const pi = 3.14;
      num++;
  } while (num < 55); */
 
- for (let i = 1; i < 8; i++) {
+/*  for (let i = 1; i < 8; i++) {
      if(i == 6) {
          continue;
      }
     console.log(i);
+ } */
+/* let num = 20;
+
+ function showFirstMmessage(text) {
+     alert(text);
+     let num = 10;
+     console.log(num);
  }
+
+ showFirstMmessage("Hellow world!");
+ console.log(num); */
+
+/* function calc(a, b) {
+     return a+b;
+     
+ } */
+
+ let calc = (a, b) => a + b
+ 
+ 
+ console.log(calc(3,6));
+ console.log(calc(9,2));
+ 
+
+  function retVar(){
+    let num = 50;
+    return num;
+ }
+
+ let anotherNum = retVar();
+ console.log(anotherNum);
+
+let str = 'test';
+console.log(str.length);
+
+console.log(str.toUpperCase());
+console.log(str.toLocaleLowerCase());
+
+
+
+let twelve = "12.2px";
+
+//console.log(Math.round(twelve));
+
+console.log(parseInt(twelve));
+console.log(parseFloat(twelve));
