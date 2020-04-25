@@ -56,11 +56,11 @@ const pi = 3.14;
  } else {
      console.log("Верно!");
  } */
-let num = 50;
+
 /*  (num == 50) ? console.log('Верно!') : console.log('Не верно!'); */
 
 
- switch (num) {
+ /* switch (num) {
      case num < 49:
          console.log('Неверно!');
          break;
@@ -76,4 +76,24 @@ let num = 50;
     default:
         console.log('Что то пошло не так!');
         break;
+ }
+ */
+
+ let num = 50;
+ /* while (num < 55) {
+     console.log(num);
+     num++;
+ } */
+
+
+/*  do {
+     console.log(num);
+     num++;
+ } while (num < 55); */
+
+ for (let i = 1; i < 8; i++) {
+     if(i == 6) {
+         continue;
+     }
+    console.log(i);
  }
