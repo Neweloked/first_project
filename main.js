@@ -143,8 +143,8 @@ let twelve = "12.2px";
 console.log(parseInt(twelve));
 console.log(parseFloat(twelve)); */
 
-
-function first() {
+/*----------------------------------------------*/
+/* function first() {
     setTimeout( function() {
         console.log(1);
     }, 500 );
@@ -183,11 +183,48 @@ options.colors = {
 };
 delete options.bool;
 
-console.log(options);
+console.log(options); */
+/*-------------------------------------------------------------*/
 
-
-for(let key in options) {
+/* for(let key in options) {
     console.log('Свойство ' + key + ' имеет значение ' + options[key]);
 }
 
 console.log(Object.keys(options).length);
+
+let arr = ['first',2,3,'four',5];
+
+arr.forEach(function(item, i, mass){
+    console.log(i+ ' : ' + item + ' (массив : ' + mass + ')');
+});
+
+/* for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+} */
+/* console.log(arr);
+
+let massiv = [1,3,4,6,7];
+for(let key of massiv) {
+    console.log(key);
+} */ 
+
+/* let answer = prompt('','');
+let arr = [];
+
+arr = answer.split(';');
+
+console.log(arr); */
+
+/* let arr = ['a','r','g','h','u','t'];
+let i = arr.join('; ');
+
+console.log(i); */
+
+let arr = [1,15,4];
+let i = arr.sort(compairNum);
+
+
+function compairNum(a,b) {
+    return a-b;
+}
+console.log(i);
