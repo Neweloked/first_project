@@ -220,11 +220,24 @@ let i = arr.join('; ');
 
 console.log(i); */
 
-let arr = [1,15,4];
+/* let arr = [1,15,4];
 let i = arr.sort(compairNum);
 
 
 function compairNum(a,b) {
     return a-b;
 }
-console.log(i);
+console.log(i); */
+
+let solider = {
+    hp:400,
+    armor: 100,
+};
+
+let john = {
+    hp: 100,
+};
+
+john.__proto__ = solider;
+console.log(john);
+console.log(john.armor);
