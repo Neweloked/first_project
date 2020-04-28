@@ -228,7 +228,7 @@ function compairNum(a,b) {
     return a-b;
 }
 console.log(i); */
-
+let a = 552424;
 let solider = {
     hp:400,
     armor: 100,
