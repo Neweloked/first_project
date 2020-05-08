@@ -229,7 +229,7 @@ function compairNum(a,b) {
 }
 console.log(i); */
 
-let solider = {
+/* let solider = {
     hp:400,
     armor: 100,
 };
@@ -240,4 +240,51 @@ let john = {
 
 john.__proto__ = solider;
 console.log(john);
-console.log(john.armor);
+console.log(john.armor); */
+
+
+//1)
+String(null);
+console.log(typeof(String(4)));
+
+//2)
+
+console.log(typeof("http" + 5));
+
+
+console.log("http://vk.com/catalog/" + 5);
+
+
+
+//toNumber
+
+console.log(typeof(Number('4')));
+console.log(typeof(5 + +'5'));
+
+
+console.log(typeof(parseInt('15px', 10)));
+
+let ans = +prompt('Сообщение', );
+
+// 0 - всегда false
+// '' - пустая строка, всегда false
+// null - всегда false
+// NuN - всегда false
+//undefined - всегда false
+
+let switcher = null;
+if (switcher) {
+    console.log('привет!');
+}
+
+switcher = 1;
+
+if (switcher) {
+    console.log('привет!');
+}
+
+
+//Boole
+
+console.log(typeof(Boolean('4')));
+console.log(typeof(!!'4'));
