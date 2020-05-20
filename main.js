@@ -52,7 +52,7 @@ for(let i = 1; i < 10; i++) {
 
 
 
-let num = 20;// глобальная переменная
+/* let num = 20;// глобальная переменная
 function showNewMessage(text) {
     console.log(text);
     let num = 20; //локальная переменная
@@ -64,11 +64,11 @@ showNewMessage('Hello World');
 console.log(num);
 
 
-/* function calc(a, b) {
-    return (a +  b);
-}
+// function calc(a, b) {
+    //return (a +  b);
+//}
 
-console.log(calc(4,3)); */
+console.log(calc(4,3));
 
 
 function ret() {
@@ -90,4 +90,25 @@ logger();
 const calc =(a, b) =>{
     console.log('1');
     return a + b;
-};
+}; */
+
+
+
+
+
+
+const logg = 'Hellow world!';
+
+console.log(logg.slice(6, 11));
+
+console.log(logg.substring(6, 11));
+
+console.log(logg.substr(6, 5));//сколько символов необходимо вырезать
+
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = '12.2px';
+console.log(parseInt(test));
+console.log(parseFloat(test));
